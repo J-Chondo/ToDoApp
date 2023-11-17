@@ -1,0 +1,12 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO APP</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    
+    <% let options = { weekday: "long", year: "numeric", month: "long", day: "numeric" }; %>
+    <% let today= new Date(); %>
+    <h1><%=today.toLocaleDateString("en-US", options); %></h1>  
+        
+</body>
+</html>

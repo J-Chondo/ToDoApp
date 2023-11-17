@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+  background-color: blanchedalmond;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+footer {
+  margin-top: 100px;
+}
+
+main {
+  text-align: center;
+  padding: 5vmin;
+  flex: 1 0 auto;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px ;
+}
+
+p {
+  color: grey;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+input {
+  
+  background-color: transparent;
+  border:hidden;
+  margin-bottom: 15px;
+  
+  border-bottom: 2px solid black;
+  outline: 0;
+
+}
+
+[type="submit"] {
+
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 700;
+  border: hidden;
+}
+[type="submit"]:hover {
+  background: #3586ff;
+}
+li{
+    list-style-type: none;
+}

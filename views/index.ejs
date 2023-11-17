@@ -1,0 +1,31 @@
+
+<%-include("partials/header.ejs") %>
+<body>
+
+    <h2>My To-Do Tasks</h2>
+
+            <% todoTask.forEach(task => { %>
+
+            <li>
+            <input type="checkbox">
+            <%= task %> 
+        </li>
+        
+          <% }); %>
+    
+
+    <form action="/add" method="post" id="myForm">
+      <input type="text" name="task" placeholder="Add a task..." required autocomplete="off">
+      <button type="submit">+</button>
+    </form> 
+
+
+        
+
+
+ 
+</body>
+</html>
+
+
+<%- include("partials/footer.ejs") %>
